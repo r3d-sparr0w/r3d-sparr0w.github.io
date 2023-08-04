@@ -1,100 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offset Security - Managed Security Service Provider</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offset Security - Managed Security Service Provider</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #002D72;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    .statistic {
+      margin-bottom: 30px;
+    }
+    .statistic-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .statistic-value {
+      font-size: 24px;
+      color: #002D72;
+      font-weight: bold;
+    }
+    .source {
+      font-style: italic;
+      color: #777777;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #002D72;
+      color: #ffffff;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #004BAE;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <h1>Offset Security</h1>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <section id="home">
-            <div class="container">
-                <h2>Welcome to Offset Security</h2>
-                <p>We are your reliable partner in providing top-notch cybersecurity solutions for your business.</p>
-                <a href="#contact" class="btn">Contact Us</a>
-            </div>
-        </section>
-        <section>
-            <title>Small Business Cybersecurity Statistics - 2023 Verizon Data Breach Report</title>
-                <body>
-                   <header style="background-color: #002D72; color: #ffffff; text-align: center; padding: 20px;">
-                     <h1>Small Business Cybersecurity Statistics</h1>
-                    <p>Based on the 2023 Verizon Data Breach Investigation Report</p>
-                   </header>
-                <div style="max-width: 800px; margin: 20px auto; padding: 20px;">
-                  <div style="margin-bottom: 30px;">
-                  <div style="font-size: 20px; font-weight: bold;">Percentage of Cyberattacks Targeted at Small Businesses:</div>
-                  <div style="font-size: 24px; color: #002D72; font-weight: bold;">40%</div>
-                  <div style="font-style: italic; color: #777777;">Source: 2023 Verizon Data Breach Investigation Report</div>
-                </div>
-               <div style="margin-bottom: 30px;">
-                 <div style="font-size: 20px; font-weight: bold;">Increase in Ransomware Attacks on Small Businesses:</div>
-                 <div style="font-size: 24px; color: #002D72; font-weight: bold;">700%</div>
-                 <div style="font-style: italic; color: #777777;">Source: 2023 Verizon Data Breach Investigation Report</div>
-               </div>
-               <div>
-                 <div style="font-size: 20px; font-weight: bold;">Percentage of Small Businesses that Suffered a Cyberattack and Went Out of Business within Six Months:</div>
-                 <div style="font-size: 24px; color: #002D72; font-weight: bold;">60%</div>
-                 <div style="font-style: italic; color: #777777;">Source: 2023 Verizon Data Breach Investigation Report</div>
-                 </div>
-               <!-- Add more statistics from the report here as needed -->
-               </div>
-            </body>
-        <section id="services">
-            <div class="container">
-                <h2>Our Services</h2>
-                <p>Choose from our tailored security packages to suit your organization's needs:</p>
-                <div class="services-grid">
-                    <div class="service">
-                        <h3>Basic Security Package</h3>
-                        <p>Antivirus, firewall setup, and regular scans.</p>
-                    </div>
-                    <div class="service">
-                        <h3>Advanced Security Package</h3>
-                        <p>Basic package + intrusion detection and prevention.</p>
-                    </div>
-                    <div class="service">
-                        <h3>Premium Security Package</h3>
-                        <p>Advanced package + security audits and employee training.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="about">
-            <div class="container">
-                <h2>About Us</h2>
-                <p>We are a dedicated team of cybersecurity experts with a mission to keep your business safe and secure.</p>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="container">
-                <h2>Contact</h2>
-                <p>Email: info@offsetsec.io</p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Offset Security. All rights reserved.</p>
+  <header>
+    <h1>Offset Security</h1>
+    <p>Your Trusted Managed Security Service Provider</p>
+    <ul>
+        <li><a href="#home">Home<a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+  </header>
+  <section id="home">
+    <div class="container">
+      <h2>Welcome to Offset Security</h2>
+      <p>We are your reliable partner in providing top-notch cybersecurity solutions for your business.</p>
+      <a href="#contact" class="btn">Contact Us</a>
+    </div>
+  </section>
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p>Choose from our tailored security packages to suit your organization's needs:</p>
+        <div class="services-grid">
+          <div class="service">
+            <h3>Basic Security Package</h3>
+            <p>Antivirus, firewall setup, and regular scans.</p>
+          </div>
+          <div class="service">
+            <h3>Advanced Security Package</h3>
+            <p>Basic package + intrusion detection and prevention.</p>
+          </div>
+          <div class="service">
+            <h3>Premium Security Package</h3>
+            <p>Advanced package + security audits and employee training.</p>
+          </div>
         </div>
-    </footer>
+    </div>
+  </section>
+  <section>
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Offset Security is a leading managed security service provider specializing in offering comprehensive cybersecurity solutions to small and medium-sized businesses. With a mission to protect your business from cyber threats, we combine cutting-edge technologies, expert security professionals, and a personalized approach to safeguard your digital assets.</p>
+
+    <h2>Small Business Cybersecurity Statistics</h2>
+    <div class="statistic">
+      <div class="statistic-title">Percentage of Cyberattacks Targeted at Small Businesses:</div>
+      <div class="statistic-value">40%</div>
+      <div class="source">Source: 2023 Verizon Data Breach Investigation Report</div>
+    </div>
+    <div class="statistic">
+      <div class="statistic-title">Increase in Ransomware Attacks on Small Businesses:</div>
+      <div class="statistic-value">700%</div>
+      <div class="source">Source: 2023 Verizon Data Breach Investigation Report</div>
+    </div>
+    <div class="statistic">
+      <div class="statistic-title">Percentage of Small Businesses that Suffered a Cyberattack and Went Out of Business within Six Months:</div>
+      <div class="statistic-value">60%</div>
+      <div class="source">Source: 2023 Verizon Data Breach Investigation Report</div>
+    </div>
+  </section>
+    <!-- Add more statistics from the report here as needed -->
+
+    <div style="text-align: center;">
+      <a href="#contact" class="cta-button">Contact Us to Secure Your Business</a>
+    </div>
+  </div>
+
+  <!-- Contact section, you can customize this section as needed -->
+  <div id="contact" style="background-color: #f2f2f2; padding: 40px; text-align: center;">
+    <h2>Contact Us</h2>
+    <p>If you're ready to enhance your business's cybersecurity, get in touch with our experts today.</p>
+    <p>Email: info@offsetsec.io</p>
+    <!-- Add your contact form or contact information here -->
+  </div>
 </body>
 </html>
